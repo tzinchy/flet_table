@@ -41,8 +41,11 @@ Requires-Dist: tzdata==2025.2
 Dynamic: author
 Dynamic: author-email
 Dynamic: classifier
+Dynamic: description
 Dynamic: description-content-type
 Dynamic: home-page
 Dynamic: requires-dist
 Dynamic: requires-python
 Dynamic: summary
+
+libary

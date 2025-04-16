@@ -1,3 +1,4 @@
+README.md
 setup.py
 flet_table/__init__.py
 flet_table/albom_flet_example.py
