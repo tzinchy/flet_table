@@ -1,10 +1,12 @@
 README.md
 setup.py
 flet_table/__init__.py
-flet_table/albom_flet_example.py
-flet_table/diagrams.py
-flet_table/example.py
-flet_table/hash_pass_window.py
+flet_table/auth.py
+flet_table/clients.py
+flet_table/database.py
+flet_table/edit_table.py
+flet_table/elements.py
+flet_table/hash_pass_functools.py
 flet_table/table.py
 flet_table.egg-info/PKG-INFO
 flet_table.egg-info/SOURCES.txt

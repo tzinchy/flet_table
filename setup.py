@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="flet_table",
-    version="0.1.4",
+    version="0.1.6",
     author="Luchiano Farrely",
     author_email="dreevxqcrypto@gmail.com",
     description="This library provides normal table elements by just using flet framework",
