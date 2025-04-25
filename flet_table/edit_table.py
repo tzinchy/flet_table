@@ -1,5 +1,5 @@
 import flet as ft
-import psycopg2  # Или другой драйвер БД
+import pymysql
 
 def create_editable_table(
     data: list[tuple],
@@ -53,7 +53,7 @@ def create_editable_table(
 # Пример реализации функций для работы с БД
 def main(page: ft.Page):
     # Подключение к БД (пример для PostgreSQL)
-    conn = psycopg2.connect(
+    conn = pymysql.connect(
         dbname="your_db",
         user="user",
         password="pass",
@@ -113,6 +113,8 @@ def main(page: ft.Page):
     def on_close(e):
         cursor.close()
         conn.close()
-    page.on_close = on_close
 
-ft.app(target=main)
+        
+    page.on_close = on_close
+if __name__ == '__main__': 
+    ft.app(target=main)

@@ -1,10 +1,10 @@
 import flet as ft
 from database import Database
-from flet_table import create_flet_table
+from table import create_flet_table
 
 db = Database()
 
-def main(page: ft.Page):
+def auth_page(page: ft.Page):
     page.title = 'Окно авторизации'
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
@@ -321,4 +321,5 @@ def main(page: ft.Page):
     )
     page.update()
 
-ft.app(target=main)
+if __name__ == '__main__':
+    ft.app(target=auth_page)

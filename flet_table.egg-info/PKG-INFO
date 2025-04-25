@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: flet_table
-Version: 0.1.6
+Version: 0.1.8
 Summary: This library provides normal table elements by just using flet framework
 Home-page: https://github.com/tzinchy/flet_table
 Author: Luchiano Farrely
